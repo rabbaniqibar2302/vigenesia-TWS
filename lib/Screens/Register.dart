@@ -15,7 +15,7 @@ class _RegisterState extends State<Register> {
   // Ganti Base URL
 
   String baseurl =
-      "http://localhost"; // ganti dengan ip address kamu / tempat kamu menyimpan backend
+      "http://192.168.58.1"; // ganti dengan ip address kamu / tempat kamu menyimpan backend
 
   Future postRegister(
       String nama, String profesi, String email, String password) async {

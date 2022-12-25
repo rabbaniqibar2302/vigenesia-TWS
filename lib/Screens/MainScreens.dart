@@ -20,7 +20,7 @@ class MainScreens extends StatefulWidget {
 
 class _MainScreensState extends State<MainScreens> {
   String baseurl =
-      "http://localhost"; // ganti dengan ip address kamu / tempat kamu menyimpan backend
+      "http://192.168.58.1"; // ganti dengan ip address kamu / tempat kamu menyimpan backend
   String? id;
   var dio = Dio();
   TextEditingController titleController = TextEditingController();

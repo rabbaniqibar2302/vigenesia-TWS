@@ -1,3 +1,7 @@
+import 'dart:convert';
+
+LoginModels loginModelsFromJson(String str) => LoginModels.fromJson(json.decode(str));
+
 class LoginModels {
   bool? isActive;
   String? message;
