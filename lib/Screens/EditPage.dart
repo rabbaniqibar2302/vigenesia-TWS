@@ -5,7 +5,7 @@ import 'dart:convert';
 import 'package:another_flushbar/flushbar.dart';
 import 'package:dio/dio.dart';
 
-import 'package:vigenesia/Constant/const.dart';
+import 'package:vigenesia/Constant/Const.dart';
 
 import 'package:vigenesia/Models/Motivasi_Model.dart';
 
@@ -20,7 +20,7 @@ class EditPage extends StatefulWidget {
 
 class _EditPageState extends State<EditPage> {
   String baseurl =
-      "http://192.168.58.1"; // ganti dengan ip address kamu / tempat kamu menyimpan backend
+      "http://192.168.18.23"; // ganti dengan ip address kamu / tempat kamu menyimpan backend
 
   var dio = Dio();
   Future<dynamic> putPost(String isiMotivasi, String ids) async {

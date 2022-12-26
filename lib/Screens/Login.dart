@@ -1,4 +1,4 @@
-import 'package:vigenesia/Constant/const.dart';
+import 'package:vigenesia/Constant/Const.dart';
 import 'package:another_flushbar/flushbar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_form_builder/flutter_form_builder.dart';
@@ -24,7 +24,7 @@ class _LoginState extends State<Login> {
   Future<LoginData?> postLogin(String email, String password) async {
     var dio = Dio();
     String baseurl =
-        "http://localhost"; // ganti dengan ip address kamu / tempat kamu menyimpan backend
+        "http://192.168.18.23"; // ganti dengan ip address kamu / tempat kamu menyimpan backend
 
     Map<String, dynamic> data = {"email": email, "password": password};
 

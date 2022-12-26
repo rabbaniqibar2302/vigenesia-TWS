@@ -1,4 +1,4 @@
-import 'package:vigenesia/Constant/const.dart';
+import 'package:vigenesia/Constant/Const.dart';
 import 'package:flutter/material.dart';
 import 'package:another_flushbar/flushbar.dart';
 import 'package:flutter_form_builder/flutter_form_builder.dart';
@@ -14,8 +14,7 @@ class Register extends StatefulWidget {
 class _RegisterState extends State<Register> {
   // Ganti Base URL
 
-  String baseurl =
-      "http://192.168.58.1"; // ganti dengan ip address kamu / tempat kamu menyimpan backend
+  String baseurl = "http://192.168.18.23";
 
   Future postRegister(
       String nama, String profesi, String email, String password) async {
